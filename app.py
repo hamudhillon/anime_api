@@ -42,7 +42,7 @@ animeEp_put_args.add_argument('epi_type',type=str,help="ani_desc of User is requ
 animeEp_put_args.add_argument('media',type=str,help="ani_episodes of User is required",required=True)
 
 
-# db.create_all()
+db.create_all()
 resource_fields={
     'id':fields.String,
     'Title':fields.String,
