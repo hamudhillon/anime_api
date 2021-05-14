@@ -1,13 +1,6 @@
 from flask import Flask
 from flask_restful import Api,Resource,reqparse,abort,fields,marshal_with
 from flask_sqlalchemy import SQLAlchemy, sqlalchemy
-import requests
-
-# import re
-# from urllib.request import urlopen,Request
-# import os
-# import json
-from bs4 import BeautifulSoup
 
 app=Flask(__name__)
 api=Api(app)
