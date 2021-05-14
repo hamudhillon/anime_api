@@ -114,4 +114,4 @@ api.add_resource(Anime_all,'/anime/all')
 # api.add_resource(Image,'/')
 
 if __name__ =="__main__":
-    app.run(debug=True)
+    app.run()
